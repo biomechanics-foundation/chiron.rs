@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - candidate
 
 permissions:
   contents: read
@@ -19,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./web
+        working-directory: .
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -29,7 +28,7 @@ jobs:
         with:
           node-version: 16.x
           cache: npm
-          cache-dependency-path: web/package-lock.json
+          cache-dependency-path: package-lock.json
       - name: Install dependencies
         run: npm ci --non-interactive
       - name: Build
@@ -41,7 +40,7 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           # 👇 Specify build output path
-          path: web/build
+          path: build
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
