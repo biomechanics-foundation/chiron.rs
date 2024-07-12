@@ -1,0 +1,49 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #cecee7;
+  --ifm-color-primary-dark: #b1b1d9;
+  --ifm-color-primary-darker: #a2a2d1;
+  --ifm-color-primary-darkest: #7676bc;
+  --ifm-color-primary-light: #ebebf5;
+  --ifm-color-primary-lighter: #fafafd;
+  --ifm-color-primary-lightest: #ffffff;
+  --ifm-background-color: #313041 !important;
+  --ifm-navbar-background-color : #3a384c;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-heading-font-family: "Titillium Web", sans-serif !important;
+  --ifm-font-family-base: "Titillium Web", sans-serif !important;
+  font-family: "Titillium Web", sans-serif !important;
+
+  .hero--primary {
+      background-color: #313041;
+      color: #cecee7;
+  }
+
+  .hero__subtitle {
+      color: #cecee7;
+  }
+
+  .footer {
+      background-color: #3a384c;
+  }
+}
+
