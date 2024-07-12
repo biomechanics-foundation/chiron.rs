@@ -36,6 +36,7 @@
 
   .hero--primary {
       --ifm-hero-background-color: #313041 !important;
+      --ifm-hero-text-color: #cecee7;
   }
 
   .hero__title {
