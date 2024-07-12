@@ -61,7 +61,7 @@ const config = {
                 disableSwitch: true,
                 respectPrefersColorScheme: false,
             },
-            image: 'img/chiron-social-card.jpg',
+            image: 'img/chiron-social-card.png',
             navbar: {
                 title: 'Chiron',
                 logo: {
