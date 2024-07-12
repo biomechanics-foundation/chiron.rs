@@ -34,6 +34,9 @@
   --ifm-font-family-base: "Titillium Web", sans-serif !important;
   font-family: "Titillium Web", sans-serif !important;
 
+  .hero--primary {
+      --ifm-hero-background-color: #313041 !important;
+  }
 
   .hero__title {
       color: #cecee7;
