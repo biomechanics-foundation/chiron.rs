@@ -35,6 +35,7 @@
   font-family: "Titillium Web", sans-serif !important;
 
   .hero--primary {
+      background-color: #313041 !important;
       --ifm-hero-background-color: #313041 !important;
       --ifm-hero-text-color: #cecee7;
   }
