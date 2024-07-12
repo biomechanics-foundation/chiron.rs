@@ -28,13 +28,14 @@
   --ifm-color-primary-lightest: #ffffff;
   --ifm-background-color: #313041 !important;
   --ifm-navbar-background-color : #3a384c;
+  --ifm-hero-background-color: #313041 !important;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-heading-font-family: "Titillium Web", sans-serif !important;
   --ifm-font-family-base: "Titillium Web", sans-serif !important;
   font-family: "Titillium Web", sans-serif !important;
 
-  .hero--primary {
-      background-color: #313041;
+
+  .hero__title {
       color: #cecee7;
   }
 
