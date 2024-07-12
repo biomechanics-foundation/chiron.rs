@@ -29,27 +29,14 @@
   --ifm-background-color: #313041 !important;
   --ifm-navbar-background-color : #3a384c;
   --ifm-hero-background-color: #313041 !important;
+  --ifm-hero-text-color: #cecee7;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-heading-font-family: "Titillium Web", sans-serif !important;
   --ifm-font-family-base: "Titillium Web", sans-serif !important;
   font-family: "Titillium Web", sans-serif !important;
+}
 
-  .hero--primary {
-      background-color: #313041 !important;
-      --ifm-hero-background-color: #313041 !important;
-      --ifm-hero-text-color: #cecee7;
-  }
-
-  .hero__title {
-      color: #cecee7;
-  }
-
-  .hero__subtitle {
-      color: #cecee7;
-  }
-
-  .footer {
-      background-color: #3a384c;
-  }
+.footer {
+    background-color: #3a384c;
 }
 
