@@ -70,8 +70,7 @@ const config = {
                 },
                 items: [
                     {
-                        type: 'docSidebar',
-                        sidebarId: 'tutorialSidebar',
+                        href: '/docs/user/intro',
                         position: 'left',
                         label: 'User Guide',
                     },
